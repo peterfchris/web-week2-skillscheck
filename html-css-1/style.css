@@ -1,0 +1,113 @@
+/********* Universal ************/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/********* nav bar *****************/
+
+nav {
+    height: 7vh;
+    width: 100%;
+    background: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1.5vh;
+    padding-left: 2.5vw;
+    font-size: 1.7rem;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+
+li {
+    margin: 0 30px;
+    font-size: .8rem;
+}
+
+/********** header ***************/
+
+header {
+    height: 49vh;
+    width: 100%;
+    background: black;
+    color: #F7ED48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-style: bold;
+}
+
+/*********** green boxes **********/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-box {
+    background: #a9eec2;
+    height: 250px;
+    width: 250px;
+    margin: 7vh 5vw;
+    border-radius: 10%;
+}
+
+/************ orange boxes *********/
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orange-box {
+    background: #f09c67;
+    margin: 0 5vw;
+    height: 250px;
+    width: 45vw;
+}
+
+/************** elephant & text *********/
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh
+}
+
+.text-box {
+    height: 200px;
+    width: 30vw;
+    margin: 7vh 10vw;
+}
+
+img {
+    height: 200px;   
+    margin-right: 12vw;
+}
+
+/************** footer ***************/
+
+footer {
+    height: 15vh;
+    width: 100%;
+    background: #305f72;
+}
